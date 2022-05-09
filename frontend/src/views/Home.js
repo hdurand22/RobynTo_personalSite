@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import About from '../components/About';
 import FeaturedProjects from '../components/FeaturedProjects';
 import Resume from '../components/Resume';
@@ -10,14 +10,14 @@ const Home = () => {
   return (
     <>
     <Row>
-      <Col lg={3} xl={3} xxl={3}>
+      <Col lg={3} xl={3} xxl={2}>
         <SiteNav />
       </Col>
-      <Col>
-        <Splash />
-        <FeaturedProjects />
-        <About />
-        <Resume />
+      <Col className='scroll' data-bs-spy='scroll' data-bs-target='#sitenav' data-bs-offset='0' tabIndex={0}>
+        <Splash id='home'/>
+        <FeaturedProjects id='projects' />
+        <About id='about'/>
+        <Resume id='resume'/>
       </Col>
     </Row>
     </>

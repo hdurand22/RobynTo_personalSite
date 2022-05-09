@@ -4,13 +4,13 @@ import Portrait from '../assets/images/RTPortrait.png';
 
 const Splash = () => {
   return (
-    <Row className='section'>
-        <Col xxl={6} xl={6} lg={6}>
+    <Row className='section' id='home'>
+        <Col xxl={4} xl={4} lg={4}>
             <Container>
                 <h1>Welcome to my site!</h1>
             </Container>
         </Col>
-        <Col xxl={6} xl={6} lg={6}>
+        <Col xxl={8} xl={8} lg={8}>
             <Container id='portrait-outline'>
                 <Image id='portrait' fluid={true} src={Portrait} />
             </Container>
