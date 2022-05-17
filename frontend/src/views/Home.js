@@ -13,7 +13,7 @@ const Home = () => {
       <Col lg={3} xl={3} xxl={2}>
         <SiteNav />
       </Col>
-      <Col className='scroll' data-bs-spy='scroll' data-bs-target='#sitenav' data-bs-offset='0' tabIndex={0}>
+      <Col>
         <Splash id='home'/>
         <FeaturedProjects id='projects' />
         <About id='about'/>
