@@ -18,8 +18,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background: linear-gradient(224.68deg, rgba(165, 52, 135, 0.7) 0%, rgba(219, 104, 68, 0.203) 75.14%), linear-gradient(135.32deg, rgba(255, 185, 0, 0.8) 0%, rgba(150, 37, 225, 0.152) 75.14%);  */
-  background-color: #bdb0d0;
-  color: #936e98
+  color: #936e98 !important;
+  background-color: #bdb0d0 !important;
 }
 
 code {
